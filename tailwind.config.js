@@ -4,12 +4,23 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'loop-scroll': 'loop-scroll 15s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      }    
+    },
   },
+  // eslint-disable-next-line no-undef
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ["cupcake", "dracula"],
+    themes: ["night"],
   },
-  darkMode: ['class', '[data-theme="dracula"]']
+  darkMode: ['class', '[data-theme="night"]']
 }
 

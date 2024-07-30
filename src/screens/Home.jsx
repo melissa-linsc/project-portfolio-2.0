@@ -1,11 +1,15 @@
+import ImageGallery from "../components/ImageGallery";
+import { Landing } from "../components/Landing";
 import { NavBar } from "../components/NavBar";
+import { ScrollingLogos } from "../components/ScrollingLogos";
 
 export function Home() {
 
     return (
-        <section>
+        <>
             <NavBar />
-            <h1 className="text-black">Project Portfolio</h1>
-        </section>
+            <Landing />
+            <ImageGallery />
+        </>
     )
 }

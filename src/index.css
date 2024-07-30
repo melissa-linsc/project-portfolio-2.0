@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes glow {
+    0%, 100% {
+      text-shadow: 0 0 10px rgba(75, 0, 130, 0.7), 0 0 20px rgba(148, 0, 211, 0.7), 0 0 30px rgba(255, 20, 147, 0.7);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(75, 0, 130, 1), 0 0 30px rgba(148, 0, 211, 1), 0 0 40px rgba(255, 20, 147, 1);
+    }
+  }
+  
+  .glow-text {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .glow-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    filter: blur(35px); /* Adjust the blur to your liking */
+    background: linear-gradient(to right, #3f9fff, #9400d3, #ff1493);
+    opacity: 0.5; /* Adjust the opacity to your liking */
+  }
+  
+
