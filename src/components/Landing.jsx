@@ -19,7 +19,7 @@ export function Landing() {
                         </span>
                     </h1>
                     <p className="mb-5">
-                    I am a full-stack software developer driven by a passion for learning, continually exploring new technologies to craft innovative and effective solutions.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, aliquid officia, delectus architecto ea rerum deserunt perferendis debitis amet quisquam fuga quam facere suscipit voluptatum? Quod eos vel quaerat similique.
                     </p>
                     <div className="flex flex-row justify-center">
                         <FaLinkedin className="w-12 h-12 text-secondary mx-2"/>

@@ -1,5 +1,4 @@
 import React from 'react';
-import GalleryImage from './GalleryImage.tsx';
 
 interface ImageData {
   src: string;
@@ -21,7 +20,7 @@ const imageData: ImageData[] = [
 
 const ImageGallery: React.FC = () => {
     return (
-        <div className="flex overflow-hidden space-x-16 h-[6rem]">
+        <div className="flex overflow-hidden space-x-16 h-[6rem] my-[2rem]">
         <div className="flex space-x-16 animate-loop-scroll">
             {imageData.map((image, index) => (
                 <img key={index} src={image.src} alt={image.alt} className="max-w-none" />
