@@ -5,35 +5,44 @@ export type Project = {
     description: string
     link: string
     tags: string[]
-    badge: string
+    badge: string[]
 }
 
 export const projects: Project[] = [
     {
         id: 1,
         name: 'NC News',
-        image: 'https://via.placeholder.com/150',
+        image: 'src/assets/images/nc-news/nc-news-thumbnail.png',
         description: 'A full-stack News App with a modern React UI that allows user interactions and utilizes an express.js backend RESTful API',
         link: 'https://www.google.com',
-        tags: ['Full-Stack', 'React.js', 'Express.js', 'Web'],
-        badge: 'NORTHCODERS'
+        tags: ['Full-Stack', 'React.js', 'Express.js', 'Web', 'PostgreSQL'],
+        badge: ['NORTHCODERS']
     },
     {
         id: 2,
         name: 'Gamerly',
-        image: 'https://via.placeholder.com/150',
+        image: 'src/assets/images/gamerly/gamerly-thumbnail.png',
         description: 'A mobile app, that gives personalised game recommendations based on user choices utilizing a machine learning algorithm and lets users connect with friends using live chat.',
         link: 'https://www.google.com',
-        tags: ['Mobile', 'React Native', 'Firebase', 'Group Project'],
-        badge: 'NORTHCODERS',
+        tags: ['Mobile', 'React Native', 'Firebase', 'Group Project', 'Express.js', 'Python', 'Flask'],
+        badge: ['NORTHCODERS'],
     },
     {
         id: 3,
         name: 'Salto Orion',
-        image: 'https://via.placeholder.com/150',
+        image: 'src/assets/images/orion/orion-thumbnail.png',
         description: 'A facial recognition and access control system that allows users to unlock doors with their face. ',
         link: 'https://www.google.com',
-        tags: ['Mobile', 'React Native', 'Firebase', 'Group Project'],
-        badge: 'WORK',
+        tags: ['Python', 'Vue.js', 'Docker', 'Azure', 'Agile', 'Typescript', 'mySQL'],
+        badge: ['TOUCHBYTE'],
+    },
+    {
+        id: 4,
+        name: 'Dictionary App',
+        image: 'src/assets/dictionary-thumbnail.png',
+        description: 'A facial recognition and access control system that allows users to unlock doors with their face. ',
+        link: 'https://www.google.com',
+        tags: ['JavaScript'],
+        badge: ['PERSONAL'],
     }
 ]

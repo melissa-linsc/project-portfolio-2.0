@@ -8,7 +8,7 @@ type WorkExperience = {
     description: string
 }
 
-export const WorkExperience: WorkExperience[] = [
+export const workExperience: WorkExperience[] = [
     {
         id: 1,
         name: 'TouchByte - Salto Systems',

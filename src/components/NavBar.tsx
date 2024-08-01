@@ -5,7 +5,7 @@ export function NavBar() {
     return (
         <div className="navbar bg-base-100 shadow-xl absolute rounded-lg">
         <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown z-20">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ export function NavBar() {
             </div>
             <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg">
                 <li><a>About</a></li>
                 <li>
                 <a>Projects</a>
@@ -34,15 +34,15 @@ export function NavBar() {
                 <li><a>Contact</a></li>
             </ul>
             </div>
-            <a className="btn btn-ghost text-xl">Melissa.</a>
+            <a className="btn btn-ghost text-3xl">Melissa.</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-1 text-lg">
             <li><a>About</a></li>
             <li>
                 <details>
                 <summary>Projects</summary>
-                <ul className="p-2">
+                <ul className="p-2 z-[1]">
                     <li><a>NC News</a></li>
                     <li><a>Gamerly</a></li>
                 </ul>
@@ -52,7 +52,7 @@ export function NavBar() {
             </ul>
         </div>
         <div className="navbar-end">
-            <a className="btn">CV</a>
+            <a className="btn text-3xl">CV</a>
         </div>
         </div>
     )

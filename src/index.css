@@ -24,9 +24,20 @@
     right: 0;
     bottom: 0;
     z-index: -5;
-    filter: blur(35px); /* Adjust the blur to your liking */
+    filter: blur(50px); /* Adjust the blur to your liking */
     background: linear-gradient(to right, #3f9fff, #9400d3, #ff1493);
     opacity: 0.5; /* Adjust the opacity to your liking */
   }
   
 
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+}
+
+canvas { 
+  overflow: hidden;
+  width:100vw;
+  height:100vh;
+}

@@ -31,6 +31,11 @@ const ImageGallery: React.FC = () => {
                 <img key={index} src={image.src} alt={image.alt} className="max-w-none" />
             ))}
         </div>
+        <div className="flex space-x-16 animate-loop-scroll" aria-hidden="true">
+            {imageData.map((image, index) => (
+                <img key={index} src={image.src} alt={image.alt} className="max-w-none" />
+            ))}
+        </div>
       </div>
     );
   };

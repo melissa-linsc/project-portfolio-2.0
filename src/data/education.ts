@@ -35,5 +35,14 @@ export const education: Education[] = [
         endDate: '2020',
         description: 'Studied A-Levels in Physics, Chemistry, Mathematics and AS-Level French.',
         results: 'A* Physics, A* Chemistry, A* Mathematics, A French'
+    },
+    {
+        id: 4,
+        name: 'Truro School',
+        image: 'https://via.placeholder.com/150',
+        startDate: '2013',
+        endDate: '2018',
+        description: 'Studied GCSEs in Physics, Chemistry, Biology, Mathematics, Further Mathematics, French, Spanish, English Literature, English Language, History, Religious Studies and Art',
+        results: '7 Grade 9s (Maths and English Language), 4 A*s, 1 A'
     }
 ]

@@ -4,16 +4,16 @@ import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export function Landing() {
-    return (
-        <div className="hero min-h-screen bg-base-100">
+    return ( <>
+        <div className="hero min-h-screen bg-base-100 flex flex-col justify-center">
             <div className="text-center hero-content">
-                <div className="max-w-lg p-20">
+                <div className="p-20 max-w-2xl">
                 <div className="avatar">
                     <div className="w-[13rem] rounded-full bg-secondary mb-10">
                         <img className="mt-2" src="src/assets/Melissa.PNG" />
                     </div>
                 </div>
-                    <h1 className="mb-5 text-5xl font-bold">
+                    <h1 className="mb-5 text-7xl font-bold animate-fadeIn">
                         Hi! I&apos;m &nbsp;
                         <span className="relative glow-text">
                             <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">Melissa</span>
@@ -29,6 +29,12 @@ export function Landing() {
                     </div>
                 </div>
             </div>
+            <span className=" animate-bounce rounded-full p-4 bg-primary text-white text-sm">
+                <svg className="w-6 h-6 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+                </svg>
+            </span>
         </div>
+        </>
     )
 }

@@ -4,7 +4,7 @@ import type { Project } from "../data/projects";
 export function ProjectCard(project) {
     project = project.project
     return (
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-96 shadow-xl hover:scale-105 z-10">
             <figure>
                 <img
                 src={project.image}
