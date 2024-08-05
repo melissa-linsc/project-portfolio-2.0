@@ -3,7 +3,7 @@ import React from 'react';
 export function NavBar() {
 
     return (
-        <div className="navbar bg-base-100 shadow-xl absolute rounded-lg">
+        <div className="navbar bg-base-100 shadow-lg shadow-black rounded-lg z-10">
         <div className="navbar-start">
             <div className="dropdown z-20">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

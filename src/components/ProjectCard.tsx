@@ -13,12 +13,12 @@ export function ProjectCard(project) {
             <div className="card-body">
                 <h2 className="card-title">
                 {project.name}
-                <div className="badge badge-secondary">{project.badge}</div>
+                <div className="badge badge-accent ">{project.badge}</div>
                 </h2>
                 <p>{project.description}</p>
                 <div className="card-actions justify-end">
                     {project.tags.map((tag) => {
-                        return <div className="badge badge-outline" key={tag}>{tag}</div>
+                        return <div className="badge badge-outline badge-secondary" key={tag}>{tag}</div>
                     })}
                 </div>
             </div>

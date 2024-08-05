@@ -4,6 +4,7 @@ import { Landing } from "../components/Landing";
 import { NavBar } from "../components/NavBar";
 import { ProjectGallery } from "../components/ProjectGallery";
 import { About } from "../components/About";
+import { Footer } from "../components/Footer";
 
 export function Home() {
 
@@ -15,6 +16,7 @@ export function Home() {
             <About />
             <ProjectGallery />
             <ExperienceGallery />
+            <Footer />
         </>
     )
 }

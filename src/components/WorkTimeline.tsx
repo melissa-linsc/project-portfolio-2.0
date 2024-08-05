@@ -28,7 +28,7 @@ export function WorkTimeline({ timelineData }) {
                     {data.startDate} - {data.endDate}
                 </time>
                 <div className="text-lg font-black text-pink-500">{data.name}</div>
-                <div className="text-lg font-black">{data.title}</div>
+                <div className="text-lg font-black text-secondary">{data.title}</div>
                 {data.description}
                 <br />
                 <span className="text-secondary">{data.results}</span>
@@ -57,7 +57,7 @@ export function WorkTimeline({ timelineData }) {
                     {data.startDate} - {data.endDate}
                 </time>
                 <div className="text-lg font-black text-pink-500">{data.name}</div>
-                <div className="text-lg font-black">{data.title}</div>
+                <div className="text-lg font-black text-secondary">{data.title}</div>
                 {data.description}
                 <br />
                 <span className="text-secondary">{data.results}</span>

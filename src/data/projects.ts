@@ -15,7 +15,7 @@ export const projects: Project[] = [
         image: 'src/assets/images/nc-news/nc-news-thumbnail.png',
         description: 'A full-stack News App with a modern React UI that allows user interactions and utilizes an express.js backend RESTful API',
         link: 'https://www.google.com',
-        tags: ['Full-Stack', 'React.js', 'Express.js', 'Web', 'PostgreSQL'],
+        tags: ['Full-Stack', 'React.js', 'Express.js', 'Web', 'PostgreSQL', 'API'],
         badge: ['NORTHCODERS']
     },
     {
@@ -40,9 +40,9 @@ export const projects: Project[] = [
         id: 4,
         name: 'Dictionary App',
         image: 'src/assets/dictionary-thumbnail.png',
-        description: 'A facial recognition and access control system that allows users to unlock doors with their face. ',
+        description: 'A simple dictionary app that allows users to search for definitions of words, view the meaning, an example sentence and hear the pronunciation.',
         link: 'https://www.google.com',
-        tags: ['JavaScript'],
+        tags: ['JavaScript', 'Web', 'API', 'HTML', 'CSS'],
         badge: ['PERSONAL'],
     }
 ]
